@@ -1,0 +1,28 @@
+services:
+  nginx:
+    # image: nginx:stable-alpine3.20-perl
+    image: nginx
+    container_name: nginx
+    depends_on:
+      - web
+    networks:
+      - frontend
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.prod
+    container_name: web
+    ports:
+      - "3000:3000"
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    driver: bridge
