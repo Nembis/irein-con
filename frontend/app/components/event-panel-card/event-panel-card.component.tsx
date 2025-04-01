@@ -25,9 +25,13 @@ export const EventPanelCard: FC<EventPanelCardProps> = ({ eventPanel }) => {
       <div className="p-2 lg:text-left lg:pl-8">
         <H3>{eventPanel.title}</H3>
         <p>{eventPanel.description}</p>
-        <p>Presented By: {eventPanel.presenter}</p>
         <p>
-          {eventPanel.date} {eventPanel.time}
+          <span className="font-bold">Presented By:</span>{" "}
+          {eventPanel.presenter}
+        </p>
+        <p className="flex">
+          <pre className="font-bold">{eventPanel.date} </pre>{" "}
+          <pre className="italic">{eventPanel.time}</pre>
         </p>
       </div>
     </div>
