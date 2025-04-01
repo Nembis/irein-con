@@ -18,9 +18,9 @@ export const Navbar = () => {
       </div>
       <div className="flex items-center w-full">
         <ul className="w-full flex justify-around text-white">
-          <li className="hover:cursor-pointer">About</li>
+          {/* <li className="hover:cursor-pointer">About</li>
           <li className="hover:cursor-pointer">Events</li>
-          <li className="hover:cursor-pointer">Temp</li>
+          <li className="hover:cursor-pointer">Temp</li> */}
         </ul>
       </div>
     </div>
