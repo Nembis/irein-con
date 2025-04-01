@@ -54,6 +54,56 @@ export default function Home() {
             <EventPanelCard key={idx} eventPanel={eventPanel} />
           ))}
         </div>
+        <div></div>
+      </section>
+
+      <section className="w-full grid gap-8 p-8 bg-background overflow-hidden">
+        <div className="w-full text-center md:my-8">
+          <H3 className="">Merch</H3>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="w-full pb-[100%] border-2 bg-primary-blue border-primary-red rounded-lg p-4 text-center space-y-8 shadow-md shadow-black relative">
+            <Image
+              src="/images/blank-T-Shirt.webp"
+              alt="Blank T Shirt"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-auto"
+              fill={true}
+            />
+          </div>
+          <div className="w-full pb-[100%] border-2 bg-primary-blue border-primary-red rounded-lg p-4 text-center space-y-8 shadow-md shadow-black relative">
+            <Image
+              src="/images/blank-T-Shirt-mail.webp"
+              alt="Blank T Shirt"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-auto"
+              fill={true}
+            />
+          </div>
+          <div className="w-full pb-[100%] border-2 bg-primary-blue border-primary-red rounded-lg p-4 text-center space-y-8 shadow-md shadow-black relative">
+            <Image
+              src="/images/blank-T-Shirt-female.webp"
+              alt="Blank T Shirt"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-auto"
+              fill={true}
+            />
+          </div>
+          <a
+            target="blank"
+            href="https://www.etsy.com/shop/craftyacai/?etsrc=sdt"
+            className="w-full md:col-start-2 md:row-start-2 p-4 bg-primary-red text-white text-center rounded-lg hover:cursor-pointer"
+          >
+            Suport our Artists
+          </a>
+        </div>
       </section>
     </>
   );
