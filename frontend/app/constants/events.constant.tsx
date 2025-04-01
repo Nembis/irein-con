@@ -5,6 +5,7 @@ export type TEventPanel = {
   presenter: string;
   date: string;
   time: string;
+  page: string;
 };
 
 export const EVENTS_PANELS: TEventPanel[] = [
@@ -16,6 +17,7 @@ export const EVENTS_PANELS: TEventPanel[] = [
     presenter: "Crimson Naitou",
     date: "04/01/2024",
     time: "11:15-11:30 AM PST",
+    page: "/events/summon-irein",
   },
   {
     image: "/images/lore-book.webp",
@@ -25,6 +27,7 @@ export const EVENTS_PANELS: TEventPanel[] = [
     presenter: "Emmryn Mythal",
     date: "04/01/2024",
     time: "11:15-11:30 AM PST",
+    page: "/events/summon-irein",
   },
   {
     image: "/images/healing-card.webp",
@@ -34,6 +37,7 @@ export const EVENTS_PANELS: TEventPanel[] = [
     presenter: "Crimson Naitou",
     date: "04/01/2024",
     time: "11:15-11:30 AM PST",
+    page: "/events/summon-irein",
   },
   {
     image: "/images/crafting-card.webp",
@@ -43,5 +47,6 @@ export const EVENTS_PANELS: TEventPanel[] = [
     presenter: "Sanjiro Avagnar",
     date: "04/01/2024",
     time: "11:15-11:30 AM PST",
+    page: "/events/summon-irein",
   },
 ];
