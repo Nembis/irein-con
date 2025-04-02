@@ -27,7 +27,7 @@ export const EVENTS_PANELS: TEventPanel[] = [
     presenter: "Emmryn Mythal",
     date: "04/01/2024",
     time: "11:15-11:30 AM PST",
-    page: "/events/summon-irein",
+    page: "/",
   },
   {
     image: "/images/healing-card.webp",
@@ -37,7 +37,7 @@ export const EVENTS_PANELS: TEventPanel[] = [
     presenter: "Crimson Naitou",
     date: "04/01/2024",
     time: "11:15-11:30 AM PST",
-    page: "/events/summon-irein",
+    page: "/",
   },
   {
     image: "/images/crafting-card.webp",
@@ -47,6 +47,6 @@ export const EVENTS_PANELS: TEventPanel[] = [
     presenter: "Sanjiro Avagnar",
     date: "04/01/2024",
     time: "11:15-11:30 AM PST",
-    page: "/events/summon-irein",
+    page: "/events/irein-crafting",
   },
 ];
