@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function IreinCraftingPage() {
   return (
     <div className="p-4 space-y-4">
-      <H1 className="text-center">Crafting and why Sanji isn't better</H1>
+      <H1 className="text-center">Crafting and why Sanji isn&apos;t better</H1>
       <div className="w-full pb-[56.25%] relative">
         <Image
           src="/images/irein-crafting.webp"
